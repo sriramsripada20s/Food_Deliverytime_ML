@@ -51,4 +51,4 @@ for filepath in list_of_files:
 
 #This code takes a project name as input and generates a structure of files and directories based on that name. 
 # It iterates through a list of files, creates directories if needed, and generates empty files 
-# if they don't exist or are empty. It also logs a message if a file already exists at the specified path.
+# if they don't exist or are empty. It also logs a message if a file already exists at the specified path
