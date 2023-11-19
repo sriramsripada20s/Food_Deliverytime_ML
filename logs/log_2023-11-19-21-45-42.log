@@ -1,0 +1,11 @@
+[2023-11-19 21:45:42,072] werkzeug - WARNING -  * Debugger is active!
+[2023-11-19 21:45:42,129] werkzeug - INFO -  * Debugger PIN: 129-571-490
+[2023-11-19 21:46:40,802] root - INFO - 
+        Error occured in execution of :
+        [C:\Users\SRIRAM SRIPADA\Downloads\project_template\Food_Deliverytime_ML\exception.py] at
+        try block line number : [13]
+        and exception block line number : [15]
+        error message : [we are testing our exception file]
+        
+[2023-11-19 21:46:40,802] root - INFO - We are testing our logging file
+[2023-11-19 21:46:40,803] werkzeug - INFO - 127.0.0.1 - - [19/Nov/2023 21:46:40] "GET / HTTP/1.1" 200 -
