@@ -1,13 +1,15 @@
+# Import necessary libraries
 import os, sys
 from pathlib import Path
 import logging
 
-
+# Set up an infinite loop until a project name is provided
 while True:
     project_name = input("Enter your Project Name: ")
     if project_name !="":
         break
 
+# List of files to be created
 #src/__init__.py
 #src/components/__init__.py
 list_of_files = [
@@ -29,15 +31,24 @@ list_of_files = [
     "setup.py"
 ]
 
-for filepath in list_of_files:
-    filepath = Path(filepath)
-    filedir, filename = os.path.split(filepath)
 
+# Loop through each file path in the list of files
+for filepath in list_of_files:
+    filepath = Path(filepath)  # Convert the file path to a Path object
+    filedir, filename = os.path.split(filepath) # Split the file path into directory and file name
+
+    # Checking if the directory is not empty (if directory exists)
     if filedir !="":
-        os.makedirs(filedir,exist_ok=True)
+        os.makedirs(filedir,exist_ok=True) # Create the directory if it doesn't exist
     
+    # Check if the file doesn't exist or if it's empty
     if (not os.path.exists(filepath)) or (os.path.getsize(filepath)==0):
         with open(filepath,"w") as f:
-            pass
+            pass # Create an empty file
     else:
-        logging.info("file is already present at : {filepath}")
+        logging.info("file is already present at : {filepath}") # Log a message if file already exists
+
+
+#This code takes a project name as input and generates a structure of files and directories based on that name. 
+# It iterates through a list of files, creates directories if needed, and generates empty files 
+# if they don't exist or are empty. It also logs a message if a file already exists at the specified path.
