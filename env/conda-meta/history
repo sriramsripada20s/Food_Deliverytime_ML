@@ -47,3 +47,7 @@
 -conda-forge/win-64::ca-certificates-2023.11.17-h56e8100_0
 +defaults/win-64::ca-certificates-2023.08.22-haa95532_0
 # update specs: ['pandas', 'numpy']
+==> 2023-11-19 18:33:44 <==
+# cmd: C:\ProgramData\Anaconda3\Scripts\conda-script.py install pip --force-reinstall
+# conda version: 4.13.0
+# update specs: ['pip']
