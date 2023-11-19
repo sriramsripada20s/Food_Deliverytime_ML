@@ -1,0 +1,5 @@
+[2023-11-19 19:40:17,412] werkzeug - WARNING -  * Debugger is active!
+[2023-11-19 19:40:17,432] werkzeug - INFO -  * Debugger PIN: 129-571-490
+[2023-11-19 19:41:22,298] root - INFO - We are testing our logger file
+[2023-11-19 19:41:22,298] werkzeug - INFO - 127.0.0.1 - - [19/Nov/2023 19:41:22] "GET / HTTP/1.1" 200 -
+[2023-11-19 19:41:22,617] werkzeug - INFO - 127.0.0.1 - - [19/Nov/2023 19:41:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
